@@ -1,8 +1,8 @@
 # US-Dummy-Data
 
-This is a repo that contains 29880 registered citis in the United States and dummy citizens that do not exist
+This is a repo that contains 29880 registered cities in the United States and has a script that inserts dummy citizens that do not exist.
 
-The SQL file contains 3 tables:
+The 2 SQL file contains 3 tables:
 
 - US_STATES: ID, STATE_CODE and STATE_NAME.
 
@@ -14,7 +14,7 @@ The US_CITIES table has all (or almost all) cities from the **United States**.
 
 ## Compatibility
 
-The [us_citizens.sql](./us_citizens.sql) file is compatible with MySQL.
+Both sql files are compatible with MySQL.
 
 ### US_STATES
 
@@ -43,12 +43,6 @@ The [us_citizens.sql](./us_citizens.sql) file is compatible with MySQL.
 | 3   | 6       | 4        | Adam       | Smith     | M      | 1990-12-15 | false   | 555-66-7777 | 64000.00 | US          |
 | 4   | 2       | 1        | Maria      | Lopez     | F      | 1988-08-08 | true    | 111-22-3333 | 58000.00 | US          |
 | 5   | 4       | 3        | John       | Doe       | M      | 1965-03-10 | true    | 444-55-6666 | 80000.00 | US          |
-
-## License
-
-This project was created under the [MIT license][1].
-
-If you find some inconsistent data, such as a duplicated city, please open an issue explaining what is happening or directly fix the problem and send a Pull Request.
 
 ## References
 
@@ -99,3 +93,9 @@ The script will seed the citizens table with a random population of citizens for
 ## Contributing
 
 Contributions are welcome! Please open an issue or a pull request if you find any inconsistencies or errors in the data.
+
+## License
+
+This project was created under the [MIT license][1].
+
+If you find some inconsistent data, such as a duplicated city, please open an issue explaining what is happening or directly fix the problem and send a Pull Request.
