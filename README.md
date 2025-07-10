@@ -76,7 +76,13 @@ mysql -u root -p US_DUMMY_DATA < us_citizens.sql
 
 You can also use the [us_dummy_data.sql](./us_dummy_data.sql) file to create the database and tables.
 
-Once the tables are created, you can run the [index.js](./src/index.js) file to insert the dummy citizens into the database.
+Once the tables are created, you can run first install the dependencies by running the following command:
+
+```bash
+npm install
+```
+
+Once the dependencies are installed, you can run the [index.js](./src/index.js) file to insert the dummy citizens into the database.
 
 ```bash
 node src/index.js
