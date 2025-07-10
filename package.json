@@ -1,0 +1,26 @@
+{
+  "name": "us-dummy-data",
+  "version": "1.0.0",
+  "description": "This is a repo that contains 29880 registered citis in the United States and dummy citizens that do not exist",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanMwangi/US-Dummy-Data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanMwangi/US-Dummy-Data/issues"
+  },
+  "homepage": "https://github.com/BryanMwangi/US-Dummy-Data#readme",
+  "dependencies": {
+    "drizzle-orm": "^0.44.2",
+    "mysql2": "^3.14.1"
+  }
+}
