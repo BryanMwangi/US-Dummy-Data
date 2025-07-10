@@ -101,7 +101,7 @@ If you find some inconsistent data, such as a duplicated city, please open an is
 ## References
 
 This repo was inspired by the following repo:
-[https://github.com/kelvins/US-Cities-Database.git][2]
+[https://github.com/kelvins/US-Cities-Database.git]
 
 This original dump was created based on the SQL dump that can be found at the following link:
-[http://www.farinspace.com/us-cities-and-state-sql-dump/][2]
+[http://www.farinspace.com/us-cities-and-state-sql-dump/]
