@@ -44,14 +44,6 @@ Both sql files are compatible with MySQL.
 | 4   | 2       | 1        | Maria      | Lopez     | F      | 1988-08-08 | true    | 111-22-3333 | 58000.00 | US          |
 | 5   | 4       | 3        | John       | Doe       | M      | 1965-03-10 | true    | 444-55-6666 | 80000.00 | US          |
 
-## References
-
-This repo was inspired by the following repo:
-[https://github.com/kelvins/US-Cities-Database.git][2]
-
-This original dump was created based on the SQL dump that can be found at the following link:
-[http://www.farinspace.com/us-cities-and-state-sql-dump/][2]
-
 ## Getting Started
 
 To get started, you need to have a MySQL database running. You can use the following command to create a new database:
@@ -105,3 +97,11 @@ Contributions are welcome! Please open an issue or a pull request if you find an
 This project was created under the [MIT license][1].
 
 If you find some inconsistent data, such as a duplicated city, please open an issue explaining what is happening or directly fix the problem and send a Pull Request.
+
+## References
+
+This repo was inspired by the following repo:
+[https://github.com/kelvins/US-Cities-Database.git][2]
+
+This original dump was created based on the SQL dump that can be found at the following link:
+[http://www.farinspace.com/us-cities-and-state-sql-dump/][2]
